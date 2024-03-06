@@ -5,13 +5,13 @@ Fine-tuned DeBERTa-large model can be found at [here](https://huggingface.co/kwa
 
 | Metrics | Value |
 | --- | --- |
-| Accuracy | 0.939142 |
-| Weighted Precision | 0.939169	 |
-| Weighted Recall | 0.939142 |
-| Weighted F1 | 0.939134 |
-| Macro Precision | 0.939237 |
-| Macro Recall | 0.938984 |
-| Macro F1 | 0.939089 |
+| Accuracy | 0.9135 |
+| Weighted Precision | 0.9135 |
+| Weighted Recall | 0.9135 |
+| Weighted F1 | 0.9134 |
+| Macro Precision | 0.9135 |
+| Macro Recall | 0.9128 |
+| Macro F1 | 0.9131 |
 
 ## Llama2-7b
 Fine-tuned Llama2-7b model can be found at [here](https://huggingface.co/kwang123/llama2-7b-ReqORNot)
@@ -39,13 +39,13 @@ model = AutoModelForSequenceClassification.from_pretrained(
 
 | Metrics | Value |
 | --- | --- |
-| Accuracy | 0.944532 |
-| Weighted Precision | 0.945637	 |
-| Weighted Recall | 0.944532 |
-| Weighted F1 | 0.944740 |
-| Macro Precision | 0.939452 |
-| Macro Recall | 0.946108 |
-| Macro F1 | 0.942408 |
+| Accuracy | 0.8970 |
+| Weighted Precision | 0.8971 |
+| Weighted Recall | 0.8970 |
+| Weighted F1 | 0.8971 |
+| Macro Precision | 0.8969 |
+| Macro Recall | 0.8971 |
+| Macro F1 | 0.8970 |
 
 ## Few-shot Learning
 
@@ -53,13 +53,13 @@ Fine-tuned model can be found at [here](https://huggingface.co/kwang123/roberta-
 
 | Metrics | Value |
 | --- | --- |
-| Accuracy | 0.741355 |
-| Weighted Precision | 0.769921	 |
-| Weighted Recall | 0.741355 |
-| Weighted F1 | 0.737959 |
-| Macro Precision | 0.763828 |
-| Macro Recall | 0.750018 |
-| Macro F1 | 0.739408 |
+| Accuracy | 0.7621 |
+| Weighted Precision | 0.7628 |
+| Weighted Recall | 0.7621 |
+| Weighted F1 | 0.7622 |
+| Macro Precision | 0.7622 |
+| Macro Recall | 0.7625 |
+| Macro F1 | 0.7620 |
 
 ## Ensemble System
 
@@ -67,22 +67,22 @@ Fine-tuned model can be found at [here](https://huggingface.co/kwang123/roberta-
 
 | Metrics | Value |
 | --- | --- |
-| Accuracy | 0.955729 |
-| Weighted Precision | 0.964219	 |
-| Weighted Recall | 0.955729 |
-| Weighted F1 | 0.957056 |
-| Macro Precision | 0.938220 |
-| Macro Recall | 0.956013 |
-| Macro F1 | 0.942336 |
+| Accuracy | 0.9479 |
+| Weighted Precision | 0.9711 |
+| Weighted Recall | 0.9479 |
+| Weighted F1 | 0.9553 |
+| Macro Precision | 0.8931 |
+| Macro Recall | 0.9121 |
+| Macro F1 | 0.8953 |
 
 ### DeBERTa + Llama2 + Few-shot
 
 | Metrics | Value |
 | --- | --- |
-| Accuracy | 0.945312 |
-| Weighted Precision | 0.956053	 |
-| Weighted Recall | 0.945312 |
-| Weighted F1 | 0.946927 |
-| Macro Precision | 0.919577 |
-| Macro Recall | 0.930135 |
-| Macro F1 | 0.919556 |
+| Accuracy | 0.9286 |
+| Weighted Precision | 0.9637 |
+| Weighted Recall | 0.9286 |
+| Weighted F1 | 0.9398 |
+| Macro Precision | 0.8736 |
+| Macro Recall | 0.8867 |
+| Macro F1 | 0.8707 |
