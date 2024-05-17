@@ -1,4 +1,6 @@
-# Project
+# Automated-Requirements-Classification
+
+Code for paper [Automated Requirements Demarcation using Large Language Models: An Empirical Study](https://ceur-ws.org/Vol-3672/NLP4RE-paper4.pdf)
 
 ## DeBERTa-v3-large
 Fine-tuned DeBERTa-large model can be found at [here](https://huggingface.co/kwang123/deberta-large-ReqORNot)
